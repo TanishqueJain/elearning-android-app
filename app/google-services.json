@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "601999005031",
+    "firebase_url": "https://elearning-c1a5c.firebaseio.com",
+    "project_id": "elearning-c1a5c",
+    "storage_bucket": "elearning-c1a5c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601999005031:android:f023eea533bea8a6a90bc2",
+        "android_client_info": {
+          "package_name": "material.study.elearning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601999005031-e3eec3flpkoatke2nei67o34o433khg2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGCvDrhWsCdXyCpOwEs6sVA0OdtLgrR_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "601999005031-e3eec3flpkoatke2nei67o34o433khg2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

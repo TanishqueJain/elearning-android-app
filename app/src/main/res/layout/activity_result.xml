@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/a12321fdgdd3"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:text="Result"
+        android:textSize="28dp"
+        android:background="@color/colorPrimaryDark"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/result_declare_text"
+        android:layout_below="@+id/a12321fdgdd3"
+        android:text="Result"
+        android:gravity="center"
+        android:textSize="28dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</RelativeLayout>

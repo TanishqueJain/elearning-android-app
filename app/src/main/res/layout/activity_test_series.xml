@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestSeriesActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_nav_bar"
+
+        >
+
+        <TextView
+            android:id="@+id/a12321fdg3d3"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="Test Series"
+            android:textSize="28dp"
+            android:background="@color/colorPrimaryDark"
+            />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_below="@+id/a12321fdg3d3"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/Test_list_recycler_view"
+            android:scrollbars="vertical"
+
+            />
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/admin_test_name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Test Name"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/admin_test_time_edittext"
+        android:layout_margin="10dp"
+        android:textSize="22dp"
+        android:visibility="gone"
+        />
+    <EditText
+        android:id="@+id/admin_test_time_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Test time in minutes"
+        android:textColorHint="@android:color/black"
+        android:textColor="@android:color/black"
+        android:layout_above="@+id/admin_test_series_add_btn"
+        android:layout_margin="10dp"
+        android:textSize="22dp"
+        android:visibility="gone"
+        />
+
+
+    <Button
+        android:layout_margin="15dp"
+        android:id="@+id/admin_test_series_add_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/bottom_nav_bar"
+        android:background="@color/colorPrimaryDark"
+        android:text="Add Test"
+        android:textSize="22dp"
+        android:textColor="@android:color/white"
+        android:visibility="gone"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+
+        android:background="@color/colorPrimaryDark"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/bottom_menu"/>
+
+
+
+</RelativeLayout>

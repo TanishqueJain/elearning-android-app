@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/view_holder_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:textSize="19dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="8dp"
+        android:gravity="left"
+        android:textStyle="bold"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view_holder_question"
+        android:orientation="horizontal"
+        >
+
+
+        <EditText
+            android:layout_weight="2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="19dp"
+            android:hint="Answer"
+            android:textColor="@android:color/black"
+            android:id="@+id/view_holder_answer"
+            android:gravity="left"/>
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="5dp"
+            android:id="@+id/view_holder_answer_submit"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/view_holder_answer"
+            android:text="Submit"
+            android:textColor="@android:color/black"
+            android:textSize="17dp"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
